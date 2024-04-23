@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <title>Translating Tool</title>
+  </head>
+
+  <body>
+    <!-- heading container -->
+    <div id="header-container">
+      <h1>Translating Tool</h1>
+      <p>The only English to Afrikaans translator you'll ever need!</p>
+    </div>
+
+    <!-- about section to explain functionality -->
+    <div id="about">
+      <h2>How Do I Use the Translating Tool?</h2>
+      <div class="instructions">
+        <p>
+          Well... the truth is, our translator can only translate from a select
+          list of words. But, we've made sure they're the only Afrikaans words
+          you'll ever need to know. 😉
+        </p>
+      </div>
+      <h2>So, which words can be translated?</h2>
+      <p>
+        Below, you'll find the list of words that you can translate. Simply
+        choose one of these fun words and type it into the text field. Then,
+        click the translate button and... boom! New word added to your vocab.
+      </p>
+    </div>
+
+    <!-- create word list -->
+    <div class="word-list">
+      <ul>
+        <li>peanut 🥜</li>
+        <li>dog 🐕</li>
+        <li>name 🅰️</li>
+        <li>bathroom 🚻</li>
+        <li>coffee ☕</li>
+        <li>shoes 👟</li>
+        <li>boy 👦</li>
+        <li>girl 👧</li>
+        <li>read 📖</li>
+        <li>cellphone 📱</li>
+      </ul>
+    </div>
+
+    <!-- user input section -->
+    <div>
+      <input type="text" id="word-input" />
+      <button id="translate-btn">Translate!</button>
+      <!-- paragraph element to print results to -->
+      <p id="translated-word"></p>
+    </div>
+
+    <script src="./translator.js"></script>
+  </body>
+</html>

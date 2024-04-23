@@ -1,0 +1,54 @@
+/* style body */
+body {
+    font-family: cursive;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    padding: 1rem;
+    font-size: 14pt;
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+
+/* style headings */
+h1 {
+    font-family: "Micro 5", sans-serif;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: "Micro 5", sans-serif;
+    font-size: 20pt;
+}
+
+/* style word list */
+.word-list ul{
+    list-style-type: none;
+    font-family: cursive;
+}
+
+/* style text input field */
+#word-input{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-size: medium;
+}
+
+/* style translate button */
+#translate-btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: deeppink;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+/* style translate button on hover */
+#translate-btn:hover{
+    background-color: rgb(252, 89, 176);
+    border: 2px solid white;
+}
+
